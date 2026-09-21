@@ -1,0 +1,210 @@
+{
+  "id": "esi-anticonceptivos",
+  "titulo": "Métodos anticonceptivos: con este sí, con este no",
+  "descripcion": "Torneo de 25 preguntas sobre métodos anticonceptivos y doble protección (3.° C, ESI).",
+  "grado": "3.° C",
+  "tiempoDefault": 20,
+  "puntosBase": 1000,
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "¿Cuál es el único método que brinda DOBLE PROTECCIÓN (evita embarazos e ITS/VIH)?",
+      "alternativas": ["Píldoras anticonceptivas", "Implante subdérmico", "Preservativo o condón", "Ampolla mensual"],
+      "correcta": 2,
+      "explicacion": "El preservativo es el único método de doble protección.",
+      "tiempo": 20
+    },
+    {
+      "id": 2,
+      "enunciado": "El “coito interrumpido” o “retirarse a tiempo” es un método totalmente seguro.",
+      "alternativas": ["Verdadero", "Falso"],
+      "correcta": 1,
+      "explicacion": "El líquido preseminal puede contener espermatozoides viables.",
+      "tiempo": 20
+    },
+    {
+      "id": 3,
+      "enunciado": "¿A qué categoría pertenece el preservativo masculino y femenino?",
+      "alternativas": ["Métodos hormonales", "Métodos de barrera", "Métodos quirúrgicos", "Métodos naturales"],
+      "correcta": 1,
+      "explicacion": "Los preservativos son métodos de barrera.",
+      "tiempo": 20
+    },
+    {
+      "id": 4,
+      "enunciado": "¿Cómo actúan principalmente los métodos hormonales (píldoras, ampollas, implante)?",
+      "alternativas": ["Matan a los espermatozoides.", "Inhiben la ovulación y espesan el moco cervical.", "Bloquean físicamente la vagina.", "Funcionan solo después del coito."],
+      "correcta": 1,
+      "explicacion": "Inhiben la ovulación y espesan el moco cervical.",
+      "tiempo": 20
+    },
+    {
+      "id": 5,
+      "enunciado": "La Anticoncepción Oral de Emergencia (AOE) se debe tomar dentro de un límite de:",
+      "alternativas": ["10 días", "72 horas (3 días)", "1 mes", "24 semanas"],
+      "correcta": 1,
+      "explicacion": "La AOE actúa dentro de las 72 horas.",
+      "tiempo": 20
+    },
+    {
+      "id": 6,
+      "enunciado": "¿Es adecuado guardar el condón en la billetera o bolsillo ajustado?",
+      "alternativas": ["Sí, para tenerlo a la mano.", "No, porque el calor y la fricción deterioran el látex."],
+      "correcta": 1,
+      "explicacion": "El calor y la fricción deterioran el látex.",
+      "tiempo": 20
+    },
+    {
+      "id": 7,
+      "enunciado": "¿Cuál es el método anticonceptivo quirúrgico y definitivo en los varones?",
+      "alternativas": ["Ligadura de trompas", "Vasectomía", "T de Cobre", "Implante"],
+      "correcta": 1,
+      "explicacion": "La vasectomía es el método definitivo en varones.",
+      "tiempo": 20
+    },
+    {
+      "id": 8,
+      "enunciado": "¿Cuál es el método quirúrgico definitivo en las mujeres?",
+      "alternativas": ["Ligadura de trompas (AQV)", "Vasectomía", "DIU", "Ampolla trimestral"],
+      "correcta": 0,
+      "explicacion": "La ligadura de trompas (AQV) es el método definitivo en mujeres.",
+      "tiempo": 20
+    },
+    {
+      "id": 9,
+      "enunciado": "¿Usar dos condones al mismo tiempo brinda el doble de protección?",
+      "alternativas": ["Sí, es mucho más seguro.", "No, la fricción entre ambos látex puede romperlos."],
+      "correcta": 1,
+      "explicacion": "La fricción entre ambos látex puede romperlos.",
+      "tiempo": 20
+    },
+    {
+      "id": 10,
+      "enunciado": "Los adolescentes tienen derecho a recibir información verídica y atención en centros de salud.",
+      "alternativas": ["Verdadero", "Falso"],
+      "correcta": 0,
+      "explicacion": "Es un derecho reconocido.",
+      "tiempo": 20
+    },
+    {
+      "id": 11,
+      "enunciado": "¿Qué se debe revisar en el empaque del condón antes de usarlo?",
+      "alternativas": ["Que esté abierto previamente.", "La fecha de vencimiento y la burbuja de aire intacta.", "Que no tenga empaque.", "Que sea de color brillante."],
+      "correcta": 1,
+      "explicacion": "Fecha de vencimiento y burbuja de aire intacta.",
+      "tiempo": 20
+    },
+    {
+      "id": 12,
+      "enunciado": "¿Las duchas vaginales u orinar después del coito evitan un embarazo?",
+      "alternativas": ["Sí, eliminan todo.", "No, los espermatozoides avanzan al útero en segundos."],
+      "correcta": 1,
+      "explicacion": "Los espermatozoides avanzan al útero en segundos.",
+      "tiempo": 20
+    },
+    {
+      "id": 13,
+      "enunciado": "¿El implante subdérmico se coloca en:",
+      "alternativas": ["La cadera", "La cara interna del brazo no dominante", "El abdomen", "La pierna"],
+      "correcta": 1,
+      "explicacion": "Se coloca en la cara interna del brazo no dominante.",
+      "tiempo": 20
+    },
+    {
+      "id": 14,
+      "enunciado": "¿La T de Cobre o DIU es un dispositivo que se coloca en:",
+      "alternativas": ["El brazo", "La cavidad uterina por personal de salud", "El cuello", "La piel"],
+      "correcta": 1,
+      "explicacion": "La coloca personal de salud en la cavidad uterina.",
+      "tiempo": 20
+    },
+    {
+      "id": 15,
+      "enunciado": "¿La pastilla del día siguiente (AOE) protege contra las ITS o el VIH?",
+      "alternativas": ["Sí, elimina virus y bacterias.", "No, no ofrece ninguna protección contra ITS/VIH."],
+      "correcta": 1,
+      "explicacion": "La AOE no protege contra ITS/VIH.",
+      "tiempo": 20
+    },
+    {
+      "id": 16,
+      "enunciado": "¿La primera relación sexual no protegida tiene riesgo de embarazo?",
+      "alternativas": ["Sí, desde la primera menarquia/ovulación existe riesgo.", "No, la primera vez es imposible."],
+      "correcta": 0,
+      "explicacion": "Existe riesgo desde la primera vez.",
+      "tiempo": 20
+    },
+    {
+      "id": 17,
+      "enunciado": "¿El condón femenino cubre la vulva y la vagina para proteger de ITS?",
+      "alternativas": ["Verdadero", "Falso"],
+      "correcta": 0,
+      "explicacion": "Verdadero: cubre vulva y vagina.",
+      "tiempo": 20
+    },
+    {
+      "id": 18,
+      "enunciado": "¿Los métodos de calendario o ritmo son muy seguros en la adolescencia?",
+      "alternativas": ["Sí, son totalmente exactos.", "No, porque los ciclos en adolescentes suelen ser irregulares."],
+      "correcta": 1,
+      "explicacion": "Los ciclos adolescentes suelen ser irregulares.",
+      "tiempo": 20
+    },
+    {
+      "id": 19,
+      "enunciado": "¿El virus del VIH se transmite por un abrazo o caricia?",
+      "alternativas": ["Sí", "No, el VIH no se transmite por contacto casual."],
+      "correcta": 1,
+      "explicacion": "El VIH no se transmite por contacto casual.",
+      "tiempo": 20
+    },
+    {
+      "id": 20,
+      "enunciado": "¿Qué lubricante se debe usar obligatoriamente con el condón de látex?",
+      "alternativas": ["Vaselina o aceite de bebé.", "Lubricante a base de agua.", "Mantequilla o crema corporal.", "Ninguno, todos lo rompen."],
+      "correcta": 1,
+      "explicacion": "Solo lubricante a base de agua.",
+      "tiempo": 20
+    },
+    {
+      "id": 21,
+      "enunciado": "¿Qué se debe hacer al abrir el empaque del condón?",
+      "alternativas": ["Cortarlo con los dientes o tijeras.", "Empujar el condón a un lado y rasgar por la muesca con las yemas de los dedos."],
+      "correcta": 1,
+      "explicacion": "Rasgar por la muesca con las yemas, sin dientes ni tijeras.",
+      "tiempo": 20
+    },
+    {
+      "id": 22,
+      "enunciado": "¿La AOE (pastilla de emergencia) es un método abortivo?",
+      "alternativas": ["Sí, destruye el embarazo.", "No, actúa impidiendo o retrasando la ovulación antes de la fecundación."],
+      "correcta": 1,
+      "explicacion": "Impide o retrasa la ovulación; no es abortiva.",
+      "tiempo": 20
+    },
+    {
+      "id": 23,
+      "enunciado": "¿Se puede reusar un condón lavándolo con agua y jabón?",
+      "alternativas": ["Sí, hasta 3 veces.", "No, los condones son estrictamente de UN SOLO USO."],
+      "correcta": 1,
+      "explicacion": "Un solo uso, siempre.",
+      "tiempo": 20
+    },
+    {
+      "id": 24,
+      "enunciado": "¿A quién le corresponde la responsabilidad del cuidado anticonceptivo en la pareja?",
+      "alternativas": ["Solo a la mujer.", "Solo al varón.", "A ambas personas por igual."],
+      "correcta": 2,
+      "explicacion": "Es responsabilidad compartida.",
+      "tiempo": 20
+    },
+    {
+      "id": 25,
+      "enunciado": "¿Qué significa ejercer nuestros derechos sexuales con responsabilidad?",
+      "alternativas": ["Tomar decisiones por presión de los demás.", "Tomar decisiones autónomas, informadas y basadas en la ciencia para nuestro bienestar.", "No informarse y actuar a ciegas.", "Dejar todo al azar."],
+      "correcta": 1,
+      "explicacion": "Decisiones autónomas, informadas y con base científica.",
+      "tiempo": 20
+    }
+  ]
+}

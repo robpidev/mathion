@@ -1,0 +1,76 @@
+@import 'tailwindcss';
+
+html {
+	min-height: 100%;
+}
+
+body {
+	min-height: 100vh;
+	background:
+		radial-gradient(1200px 600px at 20% -10%, #7c3aed 0%, transparent 60%),
+		radial-gradient(1000px 500px at 90% 10%, #db2777 0%, transparent 55%),
+		linear-gradient(160deg, #1e1b4b 0%, #312e81 50%, #0f766e 130%);
+	background-attachment: fixed;
+	font-family: ui-rounded, 'Segoe UI', system-ui, sans-serif;
+}
+
+@keyframes pop {
+	0% {
+		transform: scale(0.92);
+		opacity: 0;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+@keyframes rise {
+	0% {
+		transform: translateY(14px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes floaty {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-8px);
+	}
+}
+
+@keyframes shake {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+	25% {
+		transform: translateX(-8px);
+	}
+	75% {
+		transform: translateX(8px);
+	}
+}
+
+.animate-pop {
+	animation: pop 0.3s ease-out;
+}
+
+.animate-rise {
+	animation: rise 0.35s ease-out;
+}
+
+.animate-float {
+	animation: floaty 3s ease-in-out infinite;
+}
+
+.animate-shake {
+	animation: shake 0.3s ease-in-out 2;
+}
