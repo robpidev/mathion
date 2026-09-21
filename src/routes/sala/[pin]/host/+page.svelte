@@ -288,7 +288,7 @@
 									: ''}"
 								style="animation-delay: {i * 0.07}s"
 							>
-								<span class="text-2xl drop-shadow">{SHAPES[i]}</span>
+								<span class="text-2xl drop-shadow">{["a","b","c","d"][i]}</span>
 								<span><Tex text={alt} /></span>
 							</div>
 						{/each}
