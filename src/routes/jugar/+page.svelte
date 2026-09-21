@@ -18,19 +18,19 @@
 	const quiz = getQuiz($page.url.searchParams.get('quiz') ?? '');
 	if (!quiz) goto('/');
 
-	let fase: 'lobby' | 'pregunta' | 'podio' = 'lobby';
-	let nombre = '';
-	let estilo: AvatarStyle = 'adventurer';
-	let semilla = randomSeed();
-	let indice = 0;
-	let elegida: number | null = null;
-	let puntos = 0;
-	let racha = 0;
-	let aciertos = 0;
-	let restante = 0;
+	let fase: 'lobby' | 'pregunta' | 'podio' = $state('lobby');
+	let nombre = $state('');
+	let estilo: AvatarStyle = $state('adventurer');
+	let semilla = $state(randomSeed());
+	let indice = $state(0);
+	let elegida: number | null = $state(null);
+	let puntos = $state(0);
+	let racha = $state(0);
+	let aciertos = $state(0);
+	let restante = $state(0);
 	let intervalo: ReturnType<typeof setInterval> | null = null;
-	let ganado = 0;
-	let sonido = true;
+	let ganado = $state(0);
+	let sonido = $state(true);
 
 	let pregunta = $derived(quiz!.preguntas[indice]);
 	let total = $derived(quiz!.preguntas.length);
@@ -185,9 +185,11 @@
 			</div>
 		</div>
 
-		<div key={indice} class="animate-pop mt-4 w-full rounded-2xl bg-white p-6 text-center shadow-xl">
-			<p class="text-xl font-bold text-indigo-950 sm:text-2xl"><Tex text={pregunta.enunciado} /></p>
-		</div>
+		{#key indice}
+			<div class="animate-pop mt-4 w-full rounded-2xl bg-white p-6 text-center shadow-xl">
+				<p class="text-xl font-bold text-indigo-950 sm:text-2xl"><Tex text={pregunta.enunciado} /></p>
+			</div>
+		{/key}
 
 		<div class="mt-4 grid w-full gap-3 sm:grid-cols-2">
 			{#each pregunta.alternativas as alt, i}
