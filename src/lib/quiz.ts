@@ -5,6 +5,8 @@ export interface Pregunta {
 	correcta: number;
 	explicacion: string;
 	tiempo: number;
+	/** Opcional: ruta en static/ (p. ej. "/esi/condon.png") o URL externa. */
+	imagen?: string;
 }
 
 export interface Quiz {

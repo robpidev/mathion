@@ -5,6 +5,8 @@ export interface Room {
 	estado: 'lobby' | 'pregunta' | 'revelado' | 'podio';
 	indice: number;
 	pregunta_inicio: string | null;
+	/** Segundos por pregunta configurados por el host (null = default del quiz). */
+	tiempo_seg: number | null;
 }
 
 export interface Player {
@@ -38,6 +40,13 @@ export function makePin(): string {
 	return pin;
 }
 
+/** Segundos efectivos de una pregunta (config de sala o default del quiz). */
+export function tiempoPregunta(
+	room: { tiempo_seg: number | null } | null,
+	tiempoDefault: number
+): number {
+	return room?.tiempo_seg && room.tiempo_seg > 0 ? room.tiempo_seg : tiempoDefault;
+}
 /** Puntos por respuesta correcta (misma fórmula que el modo local). */
 export function puntosPorRespuesta(
 	base: number,

@@ -12,6 +12,7 @@ create table if not exists rooms (
     check (estado in ('lobby', 'pregunta', 'revelado', 'podio')),
   indice int not null default 0,
   pregunta_inicio timestamptz,
+  tiempo_seg int,
   created_at timestamptz not null default now()
 );
 
@@ -42,6 +43,9 @@ create table if not exists answers (
 create index if not exists answers_room_pregunta_idx
   on answers (room_id, pregunta);
 create index if not exists players_room_idx on players (room_id);
+
+-- ============ MIGRACIÓN (si ya ejecutaste el schema anterior) ============
+-- alter table rooms add column if not exists tiempo_seg int;
 
 -- ============ RLS + POLÍTICAS (aula: anon total) ============
 alter table rooms enable row level security;
