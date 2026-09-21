@@ -20,7 +20,22 @@
 		</p>
 	</header>
 
-	<section class="mt-10 grid w-full gap-5 sm:grid-cols-2">
+	<section class="mt-8 flex w-full flex-col gap-3 sm:flex-row">
+		<a
+			href="/sala"
+			class="flex-1 rounded-2xl bg-emerald-400 px-4 py-4 text-center text-xl font-black text-indigo-950 shadow-xl transition hover:bg-emerald-300 active:scale-95"
+		>
+			🏠 CREAR SALA (proyector)
+		</a>
+		<a
+			href="/unirse"
+			class="flex-1 rounded-2xl bg-sky-400 px-4 py-4 text-center text-xl font-black text-indigo-950 shadow-xl transition hover:bg-sky-300 active:scale-95"
+		>
+			📱 UNIRSE CON PIN
+		</a>
+	</section>
+
+	<section class="mt-8 grid w-full gap-5 sm:grid-cols-2">
 		{#each QUIZZES as quiz (quiz.id)}
 			<article class="animate-rise rounded-2xl bg-white/10 p-6 shadow-xl ring-1 ring-white/20 backdrop-blur transition hover:scale-[1.02] hover:bg-white/15">
 				<div class="text-xs font-bold tracking-widest text-emerald-300 uppercase">{quiz.grado}</div>
