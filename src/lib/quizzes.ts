@@ -18,10 +18,11 @@ export function restanteActual(
 	return 0;
 }
 import esi from './data/esi-anticonceptivos.json';
+import vih from './data/esi-vih-sida.json';
 
 export type { Quiz };
 
-export const QUIZZES: Quiz[] = [esi as Quiz];
+export const QUIZZES: Quiz[] = [vih as Quiz, esi as Quiz];
 
 export function getQuiz(id: string): Quiz | undefined {
 	return QUIZZES.find((q) => q.id === id);

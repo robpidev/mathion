@@ -1,0 +1,210 @@
+{
+  "id": "esi-vih-sida",
+  "titulo": "VIH / Sida: prevención, autocuidado y no discriminación",
+  "descripcion": "Torneo de 25 preguntas Sesión 7 ESI: conceptos, vías SI-DA, mitos NO-DA, condón, TARGA y derechos (3.° C).",
+  "grado": "3.° C",
+  "tiempoDefault": 30,
+  "puntosBase": 1000,
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "¿Qué significan exactamente las siglas VIH?",
+      "alternativas": ["Virus de Infección Humana", "Virus de Inmunodeficiencia Humana", "Virus de Inmunidad Hereditaria", "Vacuna Intensiva Humana"],
+      "correcta": 1,
+      "explicacion": "El VIH es el virus que ataca y debilita el sistema inmunológico.",
+      "tiempo": 30
+    },
+    {
+      "id": 2,
+      "enunciado": "¿Qué es el SIDA?",
+      "alternativas": ["Una bacteria que se contagia por el aire.", "La etapa avanzada de la infección por el VIH cuando el sistema inmune está muy debilitado", "Una enfermedad hereditaria de nacimiento.", "Un tipo de alergia de la piel."],
+      "correcta": 1,
+      "explicacion": "Tener VIH no es lo mismo que tener SIDA; el SIDA es la etapa avanzada.",
+      "tiempo": 30
+    },
+    {
+      "id": 3,
+      "enunciado": "¿El VIH/Sida es considerado una Infección de Transmisión Sexual (ITS)?",
+      "alternativas": ["Verdadero", "Falso"],
+      "correcta": 0,
+      "explicacion": "El VIH es una ITS que se estudia con especial atención por su impacto global.",
+      "tiempo": 30
+    },
+    {
+      "id": 4,
+      "enunciado": "¿Cuáles son algunas de las ITS más comunes además del VIH?",
+      "alternativas": ["Resfrío, gripe y varicela.", "Gonorrea, sífilis, herpes genital y clamidia", "Gastritis, diabetes y asma.", "Anemia y parasitosis."],
+      "correcta": 1,
+      "explicacion": "Gonorrea, sífilis, herpes genital y clamidia son ITS frecuentes.",
+      "tiempo": 30
+    },
+    {
+      "id": 5,
+      "enunciado": "¿A simple vista se puede saber si una persona tiene VIH?",
+      "alternativas": ["Verdadero", "Falso"],
+      "correcta": 1,
+      "explicacion": "Nadie tiene un cartel en la cara; una persona sana a la vista puede tener el virus.",
+      "tiempo": 30
+    },
+    {
+      "id": 6,
+      "enunciado": "¿Cuál es la única prueba oficial de laboratorio en el Perú para detectar el VIH?",
+      "alternativas": ["Un examen de orina o hemograma simple.", "La prueba de ELISA o prueba rápida de sangre", "Una radiografía de tórax.", "Una toma de presión arterial."],
+      "correcta": 1,
+      "explicacion": "Solo la prueba de ELISA o prueba rápida de sangre detecta el VIH.",
+      "tiempo": 30
+    },
+    {
+      "id": 7,
+      "enunciado": "En el Perú, ¿cuál es la principal vía de transmisión del VIH?",
+      "alternativas": ["Vía parenteral por agujas (1%).", "Vía sexual sin uso de condón (97%)", "Vía perinatal de madre a hijo (2%).", "Picaduras de mosquitos."],
+      "correcta": 1,
+      "explicacion": "El 97% de los contagios en el Perú ocurre por relaciones sexuales sin protección.",
+      "tiempo": 30
+    },
+    {
+      "id": 8,
+      "enunciado": "¿Compartir objetos punzocortantes (máquinas de afeitar, agujas de tatuaje o navajas) transmite el VIH?",
+      "alternativas": ["Verdadero", "Falso"],
+      "correcta": 0,
+      "explicacion": "SI-DA: hay contacto directo de sangre. Son de uso personal.",
+      "tiempo": 30
+    },
+    {
+      "id": 9,
+      "enunciado": "¿Qué es la transmisión vertical o perinatal del VIH?",
+      "alternativas": ["La transmisión de un estudiante a otro en la escuela.", "La transmisión de la madre infectada a su bebé durante la gestación, parto o lactancia", "El contagio por usar el mismo transporte público.", "El contagio por picadura de insectos."],
+      "correcta": 1,
+      "explicacion": "La madre infectada puede transmitir el virus en gestación, parto o lactancia.",
+      "tiempo": 30
+    },
+    {
+      "id": 10,
+      "enunciado": "¿Recibir una transfusión con sangre infectada no analizada representa un riesgo?",
+      "alternativas": ["Verdadero", "Falso"],
+      "correcta": 0,
+      "explicacion": "SI-DA: en centros formales la sangre se analiza para descartar el virus.",
+      "tiempo": 30
+    },
+    {
+      "id": 11,
+      "enunciado": "¿Tener relaciones sexuales orales o anales sin condón transmite el VIH?",
+      "alternativas": ["Sí, todas las relaciones sexuales sin condón transmiten el virus.", "No, solo la vía vaginal transmite.", "No, el sexo oral no tiene ningún riesgo.", "Solo transmite si hay dolor."],
+      "correcta": 0,
+      "explicacion": "Toda relación vaginal, anal u oral sin condón puede transmitir el virus.",
+      "tiempo": 30
+    },
+    {
+      "id": 12,
+      "enunciado": "¿Por qué las mujeres monógamas también deben estar informadas?",
+      "alternativas": ["Porque el virus se crea de forma espontánea.", "Porque en el Perú el 70% de mujeres con VIH lo adquirió de su pareja estable que no usaba condón", "Porque no existe la prueba de ELISA para mujeres.", "Porque el maquillaje transmite el virus."],
+      "correcta": 1,
+      "explicacion": "La pareja estable que no usa condón es la vía más frecuente en estos casos.",
+      "tiempo": 30
+    },
+    {
+      "id": 13,
+      "enunciado": "¿El cepillo de dientes es un artículo personal que no se debe compartir por riesgo de sangrado de encías?",
+      "alternativas": ["Verdadero", "Falso"],
+      "correcta": 0,
+      "explicacion": "Puede haber contacto con sangre por sangrado de encías.",
+      "tiempo": 30
+    },
+    {
+      "id": 14,
+      "enunciado": "¿El VIH se transmite por dar un abrazo, una caricia o dar la mano?",
+      "alternativas": ["Verdadero", "Falso"],
+      "correcta": 1,
+      "explicacion": "NO-DA: no se transmite por contacto casual ni afecto.",
+      "tiempo": 30
+    },
+    {
+      "id": 15,
+      "enunciado": "¿Te puedes contagiar de VIH por la picadura de un zancudo o mosquito?",
+      "alternativas": ["Verdadero", "Falso"],
+      "correcta": 1,
+      "explicacion": "NO-DA: el virus no sobrevive ni se multiplica en insectos.",
+      "tiempo": 30
+    },
+    {
+      "id": 16,
+      "enunciado": "¿Compartir el aula de clases, las carpetas o los baños en el colegio transmite el VIH?",
+      "alternativas": ["Sí, si se sientan juntos todo el día.", "No, estudiar y compartir espacios escolares es totalmente seguro.", "Sí, al tocar los mismos cuadernos.", "Solo si no se usa mascarilla."],
+      "correcta": 1,
+      "explicacion": "NO-DA: compartir espacios escolares es totalmente seguro.",
+      "tiempo": 30
+    },
+    {
+      "id": 17,
+      "enunciado": "¿Bañarse en la misma piscina con una persona portadora del VIH representa algún riesgo?",
+      "alternativas": ["Verdadero", "Falso"],
+      "correcta": 1,
+      "explicacion": "NO-DA: el agua y el cloro inactivan el virus.",
+      "tiempo": 30
+    },
+    {
+      "id": 18,
+      "enunciado": "¿Compartir platos, vasos, cubiertos o secar las lágrimas a un compañero con VIH transmite el virus?",
+      "alternativas": ["Sí, la saliva y las lágrimas tienen alta carga viral.", "No, la saliva, lágrimas y sudor no transmiten el VIH.", "Sí, si la comida está caliente.", "Solo si comparten el vaso tres veces."],
+      "correcta": 1,
+      "explicacion": "NO-DA: saliva, lágrimas y sudor no transmiten el VIH.",
+      "tiempo": 30
+    },
+    {
+      "id": 19,
+      "enunciado": "¿Cuál es el único método que protege al 97% contra el VIH e ITS?",
+      "alternativas": ["Las píldoras anticonceptivas.", "El método del calendario o ritmo.", "El preservativo o condón de látex", "La ampolla trimestral."],
+      "correcta": 2,
+      "explicacion": "Pastillas e inyecciones evitan embarazos, pero solo el condón previene VIH e ITS.",
+      "tiempo": 30
+    },
+    {
+      "id": 20,
+      "enunciado": "¿Qué es el tratamiento TARGA en el Perú?",
+      "alternativas": ["Una cura definitiva que elimina el virus del cuerpo en 24 horas.", "Tratamiento Antirretroviral de Gran Actividad, gratuito en los centros de salud para mejorar la calidad de vida", "Una vacuna preventiva que se aplica antes de la primera relación sexual.", "Un jarabe de venta libre en bodegas."],
+      "correcta": 1,
+      "explicacion": "El TARGA es gratuito y mejora la calidad de vida de la persona.",
+      "tiempo": 30
+    },
+    {
+      "id": 21,
+      "enunciado": "¿Existe actualmente una vacuna o cura definitiva que elimine completamente el VIH del cuerpo?",
+      "alternativas": ["Verdadero", "Falso"],
+      "correcta": 1,
+      "explicacion": "Aún no hay cura ni vacuna, pero el TARGA permite una vida plena.",
+      "tiempo": 30
+    },
+    {
+      "id": 22,
+      "enunciado": "¿El tratamiento TARGA es gratuito en todos los establecimientos de salud del Estado peruano?",
+      "alternativas": ["Verdadero", "Falso"],
+      "correcta": 0,
+      "explicacion": "Es un derecho garantizado por el Ministerio de Salud.",
+      "tiempo": 30
+    },
+    {
+      "id": 23,
+      "enunciado": "¿Qué debemos hacer si sospechamos haber estado expuestos a una situación de riesgo?",
+      "alternativas": ["Guardar silencio por vergüenza o temor.", "Acudir de inmediato al centro de salud para orientación, descarte y atención médica confidencial", "Tomar remedios caseros o antibióticos por cuenta propia.", "Esperar varios años a ver si aparecen síntomas."],
+      "correcta": 1,
+      "explicacion": "El centro de salud brinda orientación, descarte y atención confidencial.",
+      "tiempo": 30
+    },
+    {
+      "id": 24,
+      "enunciado": "¿Cómo debemos actuar frente a un compañero o persona que vive con VIH?",
+      "alternativas": ["Aislarla y rechazarla para que no asista al colegio.", "Tratarla con respeto, empatía, inclusión y garantizando sus derechos sin ninguna discriminación", "Difundir su diagnóstico en redes sociales.", "Evitar hablarle o mirarle."],
+      "correcta": 1,
+      "explicacion": "El trato es con respeto, empatía e inclusión, sin discriminación.",
+      "tiempo": 30
+    },
+    {
+      "id": 25,
+      "enunciado": "¿Qué significa ejercer nuestros derechos sexuales con responsabilidad en la adolescencia?",
+      "alternativas": ["Actuar por presión del grupo de amigos o pareja.", "Tomar decisiones autónomas e informadas, basadas en ciencia y practicando el autocuidado con condón", "Guiarse únicamente por mitos y rumores de internet.", "Dejar nuestra salud al azar."],
+      "correcta": 1,
+      "explicacion": "Decisiones autónomas, informadas y con autocuidado.",
+      "tiempo": 30
+    }
+  ]
+}
